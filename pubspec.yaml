@@ -1,0 +1,57 @@
+name: Quiz_app
+description: Quiz app Flutter
+
+publish_to: "none"
+
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_timer_countdown: ^1.0.5
+  google_fonts: ^5.1.0
+  flutter_screenutil: ^5.8.4
+  flutter_svg: ^2.0.7
+  bloc: ^8.1.2
+  flutter_bloc: ^8.1.3
+  percent_indicator: ^4.2.3
+  flutter_native_splash: ^2.3.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_native_splash:
+  color: "#F5F0FC"
+  image: assets/images/splash12.png
+  color_dark: "#121212"
+  image_dark: assets/images/splash12.png
+
+  android_12:
+    image: assets/images/splash12.png
+    image_dark: assets/images/splash12.png
+    icon_background_color_dark: "#121212"
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/google_fonts/
