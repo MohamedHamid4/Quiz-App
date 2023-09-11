@@ -24,23 +24,23 @@ dependencies:
   flutter_launcher_icons: ^0.13.1
 
 flutter_native_splash:
-  color: "#F5F0FC"
+  color: "#0xFF0573CE"
   image: assets/images/splash12.png
-  color_dark: "#121212"
+  color_dark: "#ffffff"
   image_dark: assets/images/splash12.png
 
   android_12:
     image: assets/images/splash12.png
     image_dark: assets/images/splash12.png
-    icon_background_color_dark: "#121212"
+    icon_background_color_dark: "#ffffff"
 
 
 flutter_launcher_icons:
-  android: "launcher_icon"
+  android: true
   ios: true
   remove_alpha_ios: true
   image_path: "assets/images/icon.png"
-  min_sdk_android: 21 # android min sdk min:16, default 21
+  min_sdk_android: 21
 
 
 dev_dependencies:
