@@ -49,7 +49,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   height: (2 / 3).sh,
                   decoration: const BoxDecoration(
-                    color: Color.fromARGB(255, 245, 240, 252),
+                    color: Color(0xEEF7FFFF),
                     borderRadius: BorderRadius.vertical(
                       top: Radius.circular(20),
                     ),
@@ -70,8 +70,8 @@ class _LoginScreenState extends State<LoginScreen> {
                           validator: (value) {
                             if (value!.isEmpty) {
                               return 'Username can not be empty';
-                            } else if (value.length < 9) {
-                              return "Username must be more than 9 chracters";
+                            } else if (value.length < 4) {
+                              return "Username must be more than 9 characters";
                             } else if (!value[0].contains(RegExp(r'[A-Z]'))) {
                               return "First character in username must be uppercase ";
                             }
