@@ -2,49 +2,49 @@ List<int> numbers = [];
 
 List biologyTest = [
   {
-    "question": "What is the smallest unit of life?",
+    "question": "What is the primary function of the mitochondria in a cell?",
     "answers": [
-      {"ans": "Cell", "score": 1},
-      {"ans": "Organ", "score": 0},
-      {"ans": "Molecule", "score": 0},
-      {"ans": "Atom", "score": 0}
+      {"ans": "Energy production", "score": 1},
+      {"ans": "Protein synthesis", "score": 0},
+      {"ans": "Waste elimination", "score": 0},
+      {"ans": "DNA replication", "score": 0}
     ]
   },
   {
-    "question": "What is the powerhouse of the cell?",
+    "question": "Which of the following is an example of an autotrophic organism?",
     "answers": [
-      {"ans": "Golgi apparatus", "score": 0},
-      {"ans": "Mitochondria", "score": 1},
-      {"ans": "Endoplasmic reticulum", "score": 0},
-      {"ans": "Lysosome", "score": 0}
+      {"ans": "Dog", "score": 0},
+      {"ans": "Oak tree", "score": 1},
+      {"ans": "Human", "score": 0},
+      {"ans": "Fungus", "score": 0}
     ]
   },
   {
-    "question": "What is the process by which plants make their own food?",
+    "question": "What is the function of red blood cells in the human body?",
     "answers": [
-      {"ans": "Photosynthesis", "score": 1},
-      {"ans": "Cellular respiration", "score": 0},
-      {"ans": "Fermentation", "score": 0},
-      {"ans": "Glycolysis", "score": 0}
+      {"ans": "Transport oxygen", "score": 1},
+      {"ans": "Fight infections", "score": 0},
+      {"ans": "Produce insulin", "score": 0},
+      {"ans": "Store energy", "score": 0}
     ]
   },
   {
-    "question": "What is the largest organ in the human body?",
+    "question": "Which of the following is a greenhouse gas responsible for climate change?",
     "answers": [
-      {"ans": "Liver", "score": 0},
-      {"ans": "Lungs", "score": 0},
-      {"ans": "Heart", "score": 0},
-      {"ans": "Skin", "score": 1}
+      {"ans": "Oxygen (O2)", "score": 0},
+      {"ans": "Nitrogen (N2)", "score": 0},
+      {"ans": "Hydrogen (H2)", "score": 0},
+      {"ans": "Carbon dioxide (CO2)", "score": 1}
     ]
   },
   {
     "question":
-        "What is the name of the process by which cells divide and reproduce?",
+        "In which part of the digestive system are most nutrients absorbed into the bloodstream?",
     "answers": [
-      {"ans": "Fertilization", "score": 0},
-      {"ans": "Meiosis", "score": 0},
-      {"ans": "Mitosis", "score": 1},
-      {"ans": "Bacterial transformation", "score": 0}
+      {"ans": "Stomach", "score": 0},
+      {"ans": "Large intestine", "score": 0},
+      {"ans": "Small intestine", "score": 1},
+      {"ans": "Esophagus", "score": 0}
     ]
   },
   {
@@ -58,80 +58,160 @@ List biologyTest = [
   },
   {
     "question":
-        "What is the name of the molecule that carries genetic information in cells?",
+        "What is the process by which plants convert sunlight into chemical energy?",
     "answers": [
-      {"ans": "Protein", "score": 0},
-      {"ans": "Carbohydrate", "score": 0},
-      {"ans": "Lipid", "score": 0},
-      {"ans": "DNA", "score": 1}
+      {"ans": "Respiration", "score": 0},
+      {"ans": "Oxidation", "score": 0},
+      {"ans": "Fermentation", "score": 0},
+      {"ans": "Photosynthesis", "score": 1}
     ]
   },
   {
-    "question": "What is the name of the process by which DNA is copied?",
+    "question": "Which of the following is a parasitic disease caused by Plasmodium transmitted by mosquitoes?",
     "answers": [
-      {"ans": "Translation", "score": 0},
-      {"ans": "Transcription", "score": 1},
-      {"ans": "Replication", "score": 0},
-      {"ans": "Transformation", "score": 0}
+      {"ans": "Tuberculosis", "score": 0},
+      {"ans": "Malaria", "score": 1},
+      {"ans": "Influenza", "score": 0},
+      {"ans": "HIV/AIDS", "score": 0}
     ]
-  }
+  },
+  {
+    "question":
+    "What is the function of the nervous system?",
+    "answers": [
+      {"ans": "Regulate body temperature", "score": 0},
+      {"ans": "Digest food", "score": 0},
+      {"ans": "Control voluntary movements", "score": 1},
+      {"ans": "Pump blood throughout the body", "score": 0}
+    ]
+  },
+  {
+    "question":
+    "Which organelle is responsible for protein synthesis in a cell?",
+    "answers": [
+      {"ans": "Golgi apparatus", "score": 0},
+      {"ans": "Endoplasmic reticulum", "score": 1},
+      {"ans": "Lysosome", "score": 0},
+      {"ans": "Vacuole", "score": 0}
+    ]
+  },
+  {
+    "question":
+    "What is the process of cell division that results in the formation of two identical daughter cells?",
+    "answers": [
+      {"ans": "Binary fission", "score": 0},
+      {"ans": "Meiosis", "score": 0},
+      {"ans": "Budding", "score": 0},
+      {"ans": "Mitosis", "score": 1}
+    ]
+  },
 ];
 
 List historyTest = [
   {
     "question":
-        "Which ancient civilization is known for building the Great Pyramids of Giza?",
+        "Who was the leader of the Palestinian Liberation Organization (PLO) and a prominent figure in the Palestinian struggle for statehood?",
     "answers": [
-      {"ans": "Greece", "score": 0},
-      {"ans": "China", "score": 0},
-      {"ans": "Egypt", "score": 1},
-      {"ans": "Rome", "score": 0}
+      {"ans": "King Hussein of Jordan", "score": 0},
+      {"ans": "Gamal Abdel Nasser", "score": 0},
+      {"ans": "Yasser Arafat", "score": 1},
+      {"ans": "Anwar Sadat", "score": 0}
     ]
   },
   {
     "question":
-        "Who was the first female prime minister of the United Kingdom?",
+        "The Balfour Declaration of 1917 expressed support for the establishment of a (national home for the Jewish people) in which region?",
     "answers": [
-      {"ans": "Margaret Thatcher", "score": 1},
-      {"ans": "Theresa May", "score": 0},
-      {"ans": "Angela Merkel", "score": 0},
-      {"ans": "Hillary Clinton", "score": 0}
+      {"ans": "Palestine", "score": 1},
+      {"ans": "Jordan", "score": 0},
+      {"ans": "Egypt", "score": 0},
+      {"ans": "Lebanon", "score": 0}
     ]
   },
   {
     "question":
-        "Which war was fought between the United States and Mexico in the mid-19th century?",
+        "The Oslo Accords, signed in the 1990s, aimed to establish a framework for peace between which two parties?",
     "answers": [
-      {"ans": "World War I", "score": 0},
-      {"ans": "Civil War", "score": 0},
-      {"ans": "Spanish-American War", "score": 0},
-      {"ans": "Mexican-American War", "score": 1}
+      {"ans": "Saudi Arabia and Iraq", "score": 0},
+      {"ans": "Syria and Lebanon", "score": 0},
+      {"ans": "Egypt and Jordan", "score": 0},
+      {"ans": "Israel and Palestine", "score": 1}
     ]
   },
   {
     "question":
-        "Who was the first African American to serve as the president of the United States?",
+        "What event in 1948 led to the creation of the state of Israel and the displacement of many Palestinian Arabs?",
     "answers": [
-      {"ans": "Barack Obama", "score": 1},
-      {"ans": "Donald Trump", "score": 0},
-      {"ans": "George W. Bush", "score": 0},
-      {"ans": "Bill Clinton", "score": 0}
+      {"ans": "Nakia", "score": 1},
+      {"ans": "Suez Crisis", "score": 0},
+      {"ans": "World War II", "score": 0},
+      {"ans": "Six-Day War", "score": 0}
     ]
   },
   {
-    "question": "Who was the leader of the Soviet Union during World War II?",
+    "question":
+    "Which ancient city is considered one of the oldest continuously inhabited settlements in the world and is located in the West Bank?",
     "answers": [
-      {"ans": "Joseph Stalin", "score": 1},
-      {"ans": "Vladimir Putin", "score": 0},
-      {"ans": "Mikhail Gorbachev", "score": 0},
-      {"ans": "Leonid Brezhnev", "score": 0}
+      {"ans": "Jericho", "score": 1},
+      {"ans": "Cairo", "score": 0},
+      {"ans": "Jerusalem", "score": 0},
+      {"ans": "Bethlehem", "score": 0}
+    ]
+  },
+  {
+    "question":
+    "The United Nations passed Resolution 242 after which conflict, calling for Israel to withdraw from territories occupied during the war?",
+    "answers": [
+      {"ans": "Six-Day War", "score": 1},
+      {"ans": "Yom Kippur War", "score": 0},
+      {"ans": "Suez Crisis", "score": 0},
+      {"ans": "Oslo Accords", "score": 0}
+    ]
+  },
+  {
+    "question":
+    "The Intifada refers to a series of uprisings by Palestinians against Israeli occupation, primarily in which decades?",
+    "answers": [
+      {"ans": "1990s and 2000s", "score": 0},
+      {"ans": "1970s and 1980s", "score": 1},
+      {"ans": "1950s and 1960s", "score": 0},
+      {"ans": "2010s and 2020s", "score": 0}
+    ]
+  },
+  {
+    "question":
+    "Which major world power issued the Sykes-Picot Agreement in 1916, which had a significant impact on the Middle East's political boundaries?",
+    "answers": [
+      {"ans": "United States", "score": 0},
+      {"ans": "United Kingdom", "score": 0},
+      {"ans": "France", "score": 1},
+      {"ans": "Russia", "score": 0}
+    ]
+  },
+  {
+    "question":
+    "Who was the first Prime Minister of Israel and a prominent leader in the early years of the state?",
+    "answers": [
+      {"ans": "Menachem Begin", "score": 0},
+      {"ans": "Golda Meir", "score": 0},
+      {"ans": "Ariel Sharon", "score": 0},
+      {"ans": "David Ben-Gurion", "score": 1}
+    ]
+  },
+  {
+    "question": "Who was the Egyptian president who played a key role in mediating the Camp David Accords between Egypt and Israel in 1978?",
+    "answers": [
+      {"ans": "Anwar Sadat", "score": 1},
+      {"ans": "Gamal Abdel Nasser", "score": 0},
+      {"ans": "Hosni Mubarak", "score": 0},
+      {"ans": "Mohamed Morsi", "score": 0}
     ]
   }
 ];
 
 List mathsTest = [
   {
-    "question": "What is the value of pi (π)?",
+    "question": "What is the value of π (pi) approximately equal to?",
     "answers": [
       {"ans": "3.14", "score": 1},
       {"ans": "2.71", "score": 0},
@@ -140,58 +220,88 @@ List mathsTest = [
     ]
   },
   {
-    "question": "What is the formula for the area of a rectangle?",
+    "question": "If a rectangle has a length of 8 units and a width of 5 units, what is its area?",
     "answers": [
-      {"ans": "A = πr^2", "score": 0},
-      {"ans": "A = bh", "score": 1},
-      {"ans": "A = lw", "score": 0},
-      {"ans": "A = (b + h) / 2", "score": 0}
+      {"ans": " 13 square units", "score": 0},
+      {"ans": "40 square units", "score": 1},
+      {"ans": "26 square units", "score": 0},
+      {"ans": "56 square units", "score": 0}
     ]
   },
   {
-    "question": "What is the formula for the volume of a sphere?",
+    "question": "What is the square root of 144?",
     "answers": [
-      {"ans": "V = lwh", "score": 0},
-      {"ans": "V = πr^2h", "score": 0},
-      {"ans": "V = (4/3)πr^3", "score": 1},
-      {"ans": "V = (1/3)πr^2h", "score": 0}
+      {"ans": "14", "score": 0},
+      {"ans": "10", "score": 0},
+      {"ans": "12", "score": 1},
+      {"ans": "16", "score": 0}
     ]
   },
   {
-    "question": "What is the formula for the quadratic equation?",
+    "question": "If a car travels at a constant speed of 60 kilometers per hour, how far will it travel in 3 hours?",
     "answers": [
-      {"ans": "x = (-b ± √(b^2 - 4ac)) / 2a", "score": 1},
-      {"ans": "x = -b / a", "score": 0},
-      {"ans": "x = (-b ± √(b^2 + 4ac)) / 2a", "score": 0},
-      {"ans": "x = (b^2 - a^2) / (b - a)", "score": 0}
+      {"ans": "360 kilometers", "score": 1},
+      {"ans": "240 kilometers", "score": 0},
+      {"ans": "180 kilometers", "score": 0},
+      {"ans": "120 kilometers", "score": 0}
     ]
   },
   {
-    "question": "What is the formula for the sum of an arithmetic series?",
+    "question": "Solve the equation: 3x - 7 = 14.?",
     "answers": [
-      {"ans": "S_n = (n/2)(a_1 + a_n)", "score": 1},
-      {"ans": "S_n = n(a_1 + a_n)", "score": 0},
-      {"ans": "S_n = (n/2)(2a_1 + (n-1)d)", "score": 0},
-      {"ans": "S_n = a_1 + a_n", "score": 0}
+      {"ans": "x = 7", "score": 0},
+      {"ans": "x = 21", "score": 0},
+      {"ans": "x = 9", "score": 0},
+      {"ans": "x = 5", "score": 1}
     ]
   },
   {
     "question":
-        "What is the formula for the slope-intercept form of a linear equation?",
+        "What is the perimeter of a square with a side length of 9 centimeters?",
     "answers": [
-      {"ans": "y = mx + b", "score": 1},
-      {"ans": "y = kx", "score": 0},
-      {"ans": "y = ax^2 + bx + c", "score": 0},
-      {"ans": "y = a / x + b", "score": 0}
+      {"ans": "81 centimeters", "score": 0},
+      {"ans": "36 centimeters", "score": 1},
+      {"ans": "27 centimeters", "score": 0},
+      {"ans": "18 centimeters", "score": 0}
     ]
   },
   {
-    "question": "What is the formula for the mean of a set of numbers?",
+    "question":
+    "What is the least common multiple (LCM) of 6 and 8?",
     "answers": [
-      {"ans": "μ = Σx / n", "score": 1},
-      {"ans": "μ = Σx", "score": 0},
-      {"ans": "μ = Σn / x", "score": 0},
-      {"ans": "μ = Σx / Σn", "score": 0}
+      {"ans": "16", "score": 0},
+      {"ans": "84", "score": 0},
+      {"ans": "24 centimeters", "score": 1},
+      {"ans": "12 centimeters", "score": 0}
+    ]
+  },
+  {
+    "question":
+    "If a pizza is divided into 8 equal slices, and you eat 3 slices, what fraction of the pizza have you eaten?",
+    "answers": [
+      {"ans": "5/8", "score": 0},
+      {"ans": "1/8", "score": 0},
+      {"ans": "2/8", "score": 0},
+      {"ans": "3/8", "score": 1}
+    ]
+  },
+  {
+    "question":
+    "What is the value of 5² - 3²?",
+    "answers": [
+      {"ans": "10", "score": 0},
+      {"ans": "16", "score": 0},
+      {"ans": "4", "score": 1},
+      {"ans": "14", "score": 0}
+    ]
+  },
+  {
+    "question": "If the ratio of boys to girls in a classroom is 2:3, and there are 15 boys, how many girls are there?",
+    "answers": [
+      {"ans": "25 girls", "score": 1},
+      {"ans": "20 girls", "score": 0},
+      {"ans": "8 girls", "score": 0},
+      {"ans": "10 girls", "score": 0}
     ]
   }
 ];
